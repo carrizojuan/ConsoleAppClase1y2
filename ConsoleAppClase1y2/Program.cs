@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleAppClase1y2
 {
@@ -10,6 +6,38 @@ namespace ConsoleAppClase1y2
     {
         static void Main(string[] args)
         {
+
+            //Ejercicio2();
+            
+        }
+
+        static void Ejercicio1() 
+        { 
+            Console.Write("Ingresar valor: ");
+            int numero = Int32.Parse(Console.ReadLine());
+            if (numero>100)
+            {
+                Console.WriteLine("El valor es mayor a 100");
+            }
+        }
+
+        static void Ejercicio2()
+        {
+            Console.Write("Ingresar valor: ");
+            int numero = Int32.Parse(Console.ReadLine());
+            if (numero%2 == 0)
+            {
+                Console.WriteLine("El valor es par");
+            }
+            else
+            {
+                Console.WriteLine("El valor es impar");
+            }
+        }
+
+        static void Ejercicio3() 
+        {
+
         }
     }
 }
